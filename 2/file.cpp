@@ -92,6 +92,9 @@ int main(){
 
 	int length, breath;
 	cin >> length >> breath;
+	// cout << "The area of rectangle is : " << length * 1LL * breath << "\n";
+	// Above line will produce wrong output cuz int cannot store 10^9+10^9 = 10^18
 	cout << "The area of rectangle is : " << length * 1LL * breath << "\n";
+	// Above statement will produce right output cuz long long can store 10^18.
 }	
 
