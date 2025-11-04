@@ -37,4 +37,5 @@ int main(){
 	char m;
 	cin>>k>>l>>m;// 10 20.5, 6(Providing int to char)
 	cout<<k<<" "<<l<<" "<<m<<" "<<(int)m<<endl;
+	// m ki value print hogi par complier ke andar ascii value hogi.
 }
